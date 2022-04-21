@@ -1,74 +1,9 @@
-# Data analysis
-- Document here the project: Demo_Project_ML_PCA_face_recognlition
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+## This project is a demonstration. It uses a Support Vector Classification (SVC) and a Principal Component Analysis (PCA) to recognize a face. The process of the code is in the notebook name face_recognition.ipynb (./notebooks/face_recognition.ipynb)
 
-Please document the project the better you can.
+## The accuracy of the model is around *75%* (The model uses small resolution image)
 
-# Startup the project
-
-The initial setup.
-
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
-
-Unittest test:
-```bash
-make clean install test
-```
-
-Check for Demo_Project_ML_PCA_face_recognlition in gitlab.com/{group}.
-If your project is not set please add it:
-
-- Create a new project on `gitlab.com/{group}/Demo_Project_ML_PCA_face_recognlition`
-- Then populate it:
-
-```bash
-##   e.g. if group is "{group}" and project_name is "Demo_Project_ML_PCA_face_recognlition"
-git remote add origin git@github.com:{group}/Demo_Project_ML_PCA_face_recognlition.git
-git push -u origin master
-git push -u origin --tags
-```
-
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-Demo_Project_ML_PCA_face_recognlition-run
-```
-
-# Install
-
-Go to `https://github.com/{group}/Demo_Project_ML_PCA_face_recognlition` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/Demo_Project_ML_PCA_face_recognlition.git
-cd Demo_Project_ML_PCA_face_recognlition
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-Demo_Project_ML_PCA_face_recognlition-run
-```
+# Description
+- Name: Demo_Projects_ML_SVC_PCA_face_recognition_Benbhk
+- Description: A Machine learning face recognition model
+- Data Source: scikit-learn
+- Personal page: https://inky-distance-393.notion.site/f8a4416f9dc64d9ab8c677a5a32ab03d
